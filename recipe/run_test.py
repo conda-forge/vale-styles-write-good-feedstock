@@ -48,7 +48,28 @@ a chip off the old block
 
 # output
 EXPECT_JSON = """
-  {}
+  {
+    "README.md": [
+      {
+        "Action": {
+          "Name": "",
+          "Params": null
+        },
+        "Suggestions": [],
+        "Span": [
+          1,
+          24
+        ],
+        "Check": "write-good.Cliches",
+        "Description": "",
+        "Link": "",
+        "Message": "Try to avoid using clichés like 'a chip off the old block'.",
+        "Severity": "warning",
+        "Match": "a chip off the old block",
+        "Line": 2
+      }
+    ]
+  }
 """
 
 
